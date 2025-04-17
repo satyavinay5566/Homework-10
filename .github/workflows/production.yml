@@ -25,5 +25,5 @@ jobs:
           context: .
           push: true
           tags: |
-            vinay9669/my-image:latest
-            vinay9669/my-image:${{ github.sha }}  # tag with Git SHA for traceability
+           vinay9669/my-image:latest
+           vinay9669/my-image:${{ github.sha }}
